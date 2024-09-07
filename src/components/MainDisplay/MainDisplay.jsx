@@ -8,7 +8,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/Charan_B resume.pdf";
+import CV from "../../assets/Charan_B_resume.pdf";
 import { useTheme } from "../../coomon/ThemeContext";
 
 const MainDisplay = () => {
