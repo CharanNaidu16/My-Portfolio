@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.certData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mycert {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.credential {
+  color: blue;
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .mycert h4 {
+    font-size: 22px;
+  }
+
+  .certData {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .mycert {
+    margin-bottom: 30px;
+  }
+
+  .mycert h4 {
+    font-size: 24px;
+  }
+
+  .certData {
+    font-size: 20px;
+  }
+
+  .credential {
+    font-size: 18px;
+  }
+}
+
+/* Styles for very large screens (e.g., 1400px and larger) */
+@media (min-width: 1400px) {
+  .container {
+    padding: 60px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .mycert {
+    margin-bottom: 40px;
+  }
+
+  .mycert h4 {
+    font-size: 26px;
+  }
+
+  .certData {
+    font-size: 22px;
+  }
+
+  .credential {
+    font-size: 20px;
+  }
+}
