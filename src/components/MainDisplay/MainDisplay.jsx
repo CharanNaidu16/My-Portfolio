@@ -1,5 +1,5 @@
 import styles from "./MainDisplay.module.css";
-import heroImg from "../../assets/newphoto.png";
+import heroImg from "../../assets/profile-pic (1).png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import gmailLight from "../../assets/email.png";
