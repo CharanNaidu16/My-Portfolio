@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import profileImg from "../assets/profile-pic (1).png";
 import TextChange from "./TextChange";
-import Resume from "../assets/charan.b.cv (1).pdf";
+import Resume from "../assets/charan.b.resume. (1).pdf";
 
 const MyHome = () => {
   return (
