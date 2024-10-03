@@ -1,22 +1,38 @@
-import "./App.css";
-import Certificates from "./components/certificates/Certificates";
-import Contact from "./components/contacts/Contacts";
-import MainDisplay from "./components/MainDisplay/MainDisplay";
+import React, { useState } from "react";
+import MyHome from "./components/MyHome";
+import Skill from "./components/Skill";
+import Experience from "./components/Experience";
+import Certificates from "./components/Certificates";
+import Contacts from "./components/Contacts";
+import Projects from "./components/Project";
+import Navbar from "./components/Navbar";
+import AllProjects from "./components/AllProjects";
 
-import Projects from "./components/projects/Projects";
-import Skills from "./components/skills/Skills";
+const App = () => {
+  const [showAllProjects, setShowAllProjects] = useState(false);
 
-function App() {
+  const handleProjectClick = () => {
+    setShowAllProjects(true);
+  };
+
+  const handleOtherSectionClick = () => {
+    setShowAllProjects(false);
+  };
+
   return (
-    <>
-      <MainDisplay />
-      <Projects />
-
-      <Skills />
+    <div className="bg-gray-900 text-white">
+      <Navbar
+        onProjectsClick={handleProjectClick}
+        onOtherSectionClick={handleOtherSectionClick}
+      />
+      <MyHome />
+      {showAllProjects ? <AllProjects /> : <Projects />}
+      <Skill />
+      <Experience />
       <Certificates />
-      <Contact />
-    </>
+      <Contacts />
+    </div>
   );
-}
+};
 
 export default App;
