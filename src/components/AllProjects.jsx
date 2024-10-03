@@ -48,7 +48,7 @@ const projects = [
       "The game is built using HTML, CSS, and JavaScript, ensuring a visually appealing layout that provides a smooth user experience.",
     ],
     image: rockPaper,
-    link: "https://github.com/your-repo/social-media-app",
+    link: "https://github.com/CharanNaidu16/Rock-Paper-Scissor-Game.git",
   },
   {
     name: "To Do App",
