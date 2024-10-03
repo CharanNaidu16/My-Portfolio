@@ -96,6 +96,7 @@ const Projects = () => {
       <div className="mt-4 text-center">
         <a
           href="https://github.com/CharanNaidu16"
+          target="_blank"
           className="text-blue-400 hover:underline"
         >
           View All Projects
