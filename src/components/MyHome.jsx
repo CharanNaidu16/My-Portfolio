@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import profileImg from "../assets/profile-pic (1).png";
 import TextChange from "./TextChange";
-import CV from "../assets/Charan_B_resume.pdf";
+import Resume from "../assets/charan.b.cv (1).pdf";
 
 const MyHome = () => {
   return (
@@ -65,7 +65,7 @@ const MyHome = () => {
           driven by a passion for technology and innovation.
         </p>
 
-        <a href={CV} download>
+        <a href={Resume} download>
           <button className=" sm:mt-8 bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-transform duration-200 hover:scale-105 hover:bg-blue-500">
             Resume
           </button>
