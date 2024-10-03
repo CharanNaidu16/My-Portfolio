@@ -94,7 +94,10 @@ const Projects = () => {
       </div>
 
       <div className="mt-4 text-center">
-        <a to="#allProjects" className="text-blue-400 hover:underline">
+        <a
+          href="https://github.com/CharanNaidu16"
+          className="text-blue-400 hover:underline"
+        >
           View All Projects
         </a>
       </div>
