@@ -8,8 +8,8 @@ import {
   FaDatabase,
   FaJava,
   FaGithub,
-  FaNode,
   FaGitAlt,
+  FaPython,
 } from "react-icons/fa";
 import {
   SiRedux,
@@ -41,13 +41,12 @@ const Skill = () => {
           { Icon: FaJava, name: "Java", color: "#007396" },
           { Icon: FaGithub, name: "GitHub", color: "#171515" },
           { Icon: FaGitAlt, name: "Git", color: "#F34F29" },
-          { Icon: FaNode, name: "Node.js", color: "#8CC84B" },
           { Icon: FaDatabase, name: "DBMS", color: "#F34F29" },
+          { Icon: FaPython, name: "Python", color: "#306998" },
+          { Icon: SiTailwindcss, name: "Tailwind CSS", color: "#38B2AC" },
           { Icon: SiMysql, name: "SQL", color: "#00758F" },
           { Icon: FaDatabase, name: "OOPs", color: "#F34F29" },
           { Icon: FaDatabase, name: "DSA", color: "#00758F" },
-          { Icon: FaNode, name: "Express.js", color: "#8CC84B" },
-          { Icon: SiTailwindcss, name: "Tailwind CSS", color: "#38B2AC" },
         ].map(({ Icon, name, color }) => (
           <div
             key={name}
