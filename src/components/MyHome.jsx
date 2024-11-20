@@ -64,9 +64,7 @@ const MyHome = () => {
           dynamic, responsive solutions for both frontend and backend
           environments. Driven by a passion for technology, I stay current with
           industry trends and best practices to deliver high-quality,
-          performance-driven software. I am dedicated to solving complex
-          problems, continuously expanding my skill set, and contributing to
-          innovative, impactful software projects.
+          performance-driven software.
         </p>
 
         <a href={Resume} download>
