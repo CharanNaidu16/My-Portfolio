@@ -2,18 +2,18 @@ import React, { useState } from "react";
 
 import img1 from "../assets/2nd photo.jpg";
 import img2 from "../assets/finance tracker new.jpg";
-import img3 from "../assets/social.jpg";
+import img3 from "../assets/Screenshot (15).png";
 
 const images = [
+  {
+    name: "Discord Room",
+    tools: "Django, Python, PostgreSQL",
+    image: img3,
+  },
   {
     name: "Finance Tracker",
     tools: "React, Tailwind, Redux",
     image: img2,
-  },
-  {
-    name: "Social Media App",
-    tools: "React, Bootstrap, JS",
-    image: img3,
   },
   {
     name: "Diabetic Retinopathy using Deep Learning",

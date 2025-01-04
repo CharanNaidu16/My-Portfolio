@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import profileImg from "../assets/profile-pic (1).png";
 import TextChange from "./TextChange";
-import Resume from "../assets/Charan_B.Resume (1).pdf";
+import Resume from "../assets/Charan_B_resume (6).pdf";
 
 const MyHome = () => {
   return (
@@ -57,14 +57,15 @@ const MyHome = () => {
         </h3>
 
         <p className="max-w-prose text-sm md:text-base lg:text-lg mt-4 text-gray-200">
-          I am a Computer Science graduate with a solid foundation in software
-          development, specializing in creating efficient, scalable, and
-          user-friendly applications. With expertise in Python, React, Redux,
-          MongoDB, Tailwind CSS, Bootstrap, HTML, CSS, and JavaScript, I build
-          dynamic, responsive solutions for both frontend and backend
-          environments. Driven by a passion for technology, I stay current with
-          industry trends and best practices to deliver high-quality,
-          performance-driven software.
+          I am a Computer Science graduate with a strong foundation in backend
+          software development, specializing in creating efficient, scalable,
+          and user-friendly applications. With expertise in Python and Django, I
+          build dynamic, high-performance backend systems and APIs.
+          Additionally, I am proficient in React, Redux, MongoDB, Tailwind CSS,
+          Bootstrap, HTML, CSS, and JavaScript, allowing me to develop both
+          frontend and backend solutions. Passionate about technology, I
+          continuously stay updated with industry trends and best practices to
+          deliver robust, performance-driven software.
         </p>
 
         <a href={Resume} download>

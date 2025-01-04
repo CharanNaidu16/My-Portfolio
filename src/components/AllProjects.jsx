@@ -4,13 +4,25 @@ import FinanceImg from "../assets/finance tracker new.jpg";
 import socialImg from "../assets/social.jpg";
 import rockPaper from "../assets/rock.png";
 import Todo from "../assets/ToDo.png";
+import discord from "../assets/Screenshot (15).png";
 
 const projects = [
+  {
+    name: "Discord Room",
+    tools: "Django, Python, PostgreSQL, Html, Css",
+    description: [
+      "Developed a comprehensive Discord-inspired platform that allows users to create and manage public rooms, facilitating seamless communication and collaboration.",
+      "Integrated real-time chat functionality, enabling instantaneous messaging between users within rooms, ensuring active interaction and engagement.",
+      "Implemented secure user authentication to ensure only verified users can create or join rooms, with customizable access control for enhanced privacy and security",
+    ],
+    image: discord,
+    link: "https://github.com/CharanNaidu16/Discord",
+  },
   {
     name: "Finance Tracker",
     tools: "React, Tailwind, Redux",
     description: [
-      "Develop a finance tracker application that allows users to record their income, expenses, and savings.",
+      "Developed a fully responsive finance tracker application using React and Tailwind CSS, enabling users to efficiently monitor and manage their income, expenses, and savings through an intuitive and user-friendly interface.",
       "Integrates with an API to convert currencies for easy financial management.",
       "Tracks financial news using another API to keep users informed about market trends.",
     ],

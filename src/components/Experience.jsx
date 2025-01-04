@@ -18,27 +18,32 @@ const Experience = () => {
             FEB 2024 - APR 2024
           </p>
           <h4 className="text-xl md:text-2xl font-semibold leading-normal mb-4">
-            CBP Developer Intern
+            Software Developer Intern
           </h4>
           <ul className="text-md md:text-lg leading-tight list-disc list-inside space-y-2">
             <li className="flex items-start gap-2">
-              <IoArrowForward size={20} className="mt-1 text-blue-400" />
-              Gained expertise in various database technologies including
-              MongoDB, JSON, and NoSQL, effectively utilizing these tools to
-              optimize development and deployment workflows, enhancing overall
-              efficiency and performance.
+              <IoArrowForward size={20} className="mt-1 text-blue-400" />•
+              Gained hands-on experience with Django, assisting in the
+              development of backend systems and APIs, contributing to the
+              creation of scalable, high-performance web applications.
             </li>
             <li className="flex items-start gap-2">
-              <IoArrowForward size={20} className="mt-1 text-blue-400" />
-              Contributed to the improvement of database management and data
-              handling techniques for distributed environments, ensuring more
-              efficient, reliable, and scalable systems while improving overall
-              development practices.
+              <IoArrowForward size={20} className="mt-1 text-blue-400" />•
+              Gained experience with both relational (SQL) and NoSQL (MongoDB)
+              databases, focusing on optimizing data storage, retrieval, and
+              query performance across diverse database environments.
             </li>
             <li className="flex items-start gap-2">
-              <IoArrowForward size={20} className="mt-1 text-blue-400" />
+              <IoArrowForward size={20} className="mt-1 text-blue-400" />•
               Engaged with various teams to integrate features and address
               technical challenges, enhancing teamwork and project execution.
+            </li>
+            <li className="flex items-start gap-2">
+              <IoArrowForward size={20} className="mt-1 text-blue-400" />•
+              Assisted in ensuring the security and performance of applications
+              by implementing best practices for data validation, error
+              handling, and optimizing query efficiency, ensuring a high-quality
+              user experience.
             </li>
           </ul>
         </div>

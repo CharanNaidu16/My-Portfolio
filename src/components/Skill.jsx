@@ -30,10 +30,13 @@ const Skill = () => {
       </h1>
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-6">
         {[
+          { Icon: FaPython, name: "Python", color: "#306998" },
+          { Icon: FaDatabase, name: "Django", color: "#092E20" },
+          { Icon: FaReact, name: "React", color: "#61DAFB" },
           { Icon: FaHtml5, name: "HTML5", color: "#E34F26" },
           { Icon: FaCss3, name: "CSS", color: "#1572B6" },
           { Icon: FaJs, name: "JavaScript", color: "#F7DF1E" },
-          { Icon: FaReact, name: "React", color: "#61DAFB" },
+
           { Icon: SiRedux, name: "Redux", color: "#764ABC" },
           { Icon: SiBootstrap, name: "Bootstrap", color: "#563D7C" },
           { Icon: SiMongodb, name: "MongoDB", color: "#47A248" },
@@ -42,11 +45,12 @@ const Skill = () => {
           { Icon: FaGithub, name: "GitHub", color: "#171515" },
           { Icon: FaGitAlt, name: "Git", color: "#F34F29" },
           { Icon: FaDatabase, name: "DBMS", color: "#F34F29" },
-          { Icon: FaPython, name: "Python", color: "#306998" },
+
           { Icon: SiTailwindcss, name: "Tailwind CSS", color: "#38B2AC" },
-          { Icon: SiMysql, name: "SQL", color: "#00758F" },
+          { Icon: SiMysql, name: "PostgreSQL", color: "#00758F" },
           { Icon: FaDatabase, name: "OOPs", color: "#F34F29" },
           { Icon: FaDatabase, name: "DSA", color: "#00758F" },
+          // Add Django here (with a custom label for now)
         ].map(({ Icon, name, color }) => (
           <div
             key={name}
