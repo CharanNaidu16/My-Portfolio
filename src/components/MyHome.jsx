@@ -63,9 +63,7 @@ const MyHome = () => {
           build dynamic, high-performance backend systems and APIs.
           Additionally, I am proficient in React, Redux, MongoDB, Tailwind CSS,
           Bootstrap, HTML, CSS, and JavaScript, allowing me to develop both
-          frontend and backend solutions. Passionate about technology, I
-          continuously stay updated with industry trends and best practices to
-          deliver robust, performance-driven software.
+          frontend and backend solutions.
         </p>
 
         <a href={Resume} download>
